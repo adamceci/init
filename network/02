@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aceciora <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/08 15:34:39 by aceciora          #+#    #+#              #
+#    Updated: 2019/01/11 10:22:14 by aceciora         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# 2. Identifiez et affichez les caractéristiques de l’interface Ethernet :
+# (a) Indiquez l’adresse de Broadcast
+
+ifconfig en0 inet
+
+# (b) Indiquez toutes les adresses IP qui font partie du même sous-réseau
+
+arp -a

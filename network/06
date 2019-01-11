@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aceciora <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/08 15:35:15 by aceciora          #+#    #+#              #
+#    Updated: 2019/01/11 11:44:07 by aceciora         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+L'information se trouve dans le fichier : /etc/resolv.conf
+On peut le voir facilement en tapant un man 5 resolv.conf sur internet ou
+man 5 resolver.

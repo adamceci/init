@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aceciora <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/08 14:20:44 by aceciora          #+#    #+#              #
+#    Updated: 2019/01/08 15:42:34 by aceciora         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+nat (10.60.1.1)
+
+NAT (Network Address Translation) va faire le lien entre le reseau interne et le reseau externe (internet) en traduisant les adresses internes en adresses externes (vice-versa lors du retour)

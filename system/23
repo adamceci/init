@@ -1,0 +1,2 @@
+ssh "USERNAME"@127.0.0.1 (en ssh)
+log out et entrer le nom d'utilisateur + mdp (en graphique)
