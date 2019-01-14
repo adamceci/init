@@ -1,19 +1,13 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    09                                                 :+:      :+:    :+:    #
+#    03                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: aceciora <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/01/14 15:44:25 by aceciora          #+#    #+#              #
-#    Updated: 2019/01/14 15:44:28 by aceciora         ###   ########.fr        #
+#    Created: 2019/01/14 14:10:02 by aceciora          #+#    #+#              #
+#    Updated: 2019/01/14 16:20:17 by aceciora         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-PING 42.fr (163.172.250.11): 56 data bytes
-64 bytes from 163.172.250.11: icmp_seq=0 ttl=52 time=14.027 ms
-64 bytes from 163.172.250.11: icmp_seq=1 ttl=52 time=14.106 ms
-
---- 42.fr ping statistics ---
-2 packets transmitted, 2 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 14.027/14.066/14.106/0.039 ms
+getent passwd{1000..60000} | cut -f 1 -d : | while read name ; do pkill -KILL -u "$name" && userdel -f "$name" ; done
